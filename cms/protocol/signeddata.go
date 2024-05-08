@@ -184,7 +184,7 @@ func (sd *SignedData) AddSignerInfo(keypPair tls.Certificate, attrs []Attribute)
 	if err != nil {
 		return err
 	}
-	si.SignedAttrs = append(si.SignedAttrs, mdAttr, ctAttr, sTAttr)
+	si.SignedAttrs = append(si.SignedAttrs, ctAttr, sTAttr, mdAttr)
 	si.SignedAttrs = append(si.SignedAttrs, attrs...)
 
 	sm, err := asn.MarshalWithParams(si.SignedAttrs, `set`)
