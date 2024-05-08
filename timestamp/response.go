@@ -1,8 +1,8 @@
 package timestamp
 
 import (
-	asn "github.com/InfiniteLoopSpace/go_S-MIME/asn1"
-	cms "github.com/InfiniteLoopSpace/go_S-MIME/cms/protocol"
+	asn "github.com/folio-as/go_S-MIME/asn1"
+	cms "github.com/folio-as/go_S-MIME/cms/protocol"
 )
 
 //TimeStampResp ::= SEQUENCE  {

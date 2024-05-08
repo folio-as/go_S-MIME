@@ -12,8 +12,8 @@ import (
 	"encoding/asn1"
 	"math/big"
 
-	cms "github.com/InfiniteLoopSpace/go_S-MIME/cms/protocol"
-	oid "github.com/InfiniteLoopSpace/go_S-MIME/oid"
+	cms "github.com/folio-as/go_S-MIME/cms/protocol"
+	oid "github.com/folio-as/go_S-MIME/oid"
 )
 
 // TimeStampReq ::= SEQUENCE  {

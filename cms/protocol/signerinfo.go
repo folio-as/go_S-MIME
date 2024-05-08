@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"time"
 
-	asn "github.com/InfiniteLoopSpace/go_S-MIME/asn1"
-	oid "github.com/InfiniteLoopSpace/go_S-MIME/oid"
+	asn "github.com/folio-as/go_S-MIME/asn1"
+	oid "github.com/folio-as/go_S-MIME/oid"
 )
 
 // SignerInfo ::= SEQUENCE {

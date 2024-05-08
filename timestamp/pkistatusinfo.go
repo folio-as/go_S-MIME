@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	cms "github.com/InfiniteLoopSpace/go_S-MIME/cms/protocol"
+	cms "github.com/folio-as/go_S-MIME/cms/protocol"
 )
 
 // PKIStatusInfo ::= SEQUENCE {

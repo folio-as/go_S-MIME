@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/InfiniteLoopSpace/go_S-MIME/cms"
-	"github.com/InfiniteLoopSpace/go_S-MIME/openssl"
-	"github.com/InfiniteLoopSpace/go_S-MIME/pki"
+	"github.com/folio-as/go_S-MIME/cms"
+	"github.com/folio-as/go_S-MIME/openssl"
+	"github.com/folio-as/go_S-MIME/pki"
 )
 
 var (

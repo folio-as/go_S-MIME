@@ -13,7 +13,7 @@ import (
 	"log"
 	"time"
 
-	oid "github.com/InfiniteLoopSpace/go_S-MIME/oid"
+	oid "github.com/folio-as/go_S-MIME/oid"
 )
 
 //RecipientInfo ::= CHOICE {

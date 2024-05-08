@@ -13,12 +13,12 @@ import (
 	"log"
 	"strings"
 
-	"github.com/InfiniteLoopSpace/go_S-MIME/oid"
+	"github.com/folio-as/go_S-MIME/oid"
 
-	"github.com/InfiniteLoopSpace/go_S-MIME/b64"
+	"github.com/folio-as/go_S-MIME/b64"
 
-	cms "github.com/InfiniteLoopSpace/go_S-MIME/cms"
-	mime "github.com/InfiniteLoopSpace/go_S-MIME/mime"
+	cms "github.com/folio-as/go_S-MIME/cms"
+	mime "github.com/folio-as/go_S-MIME/mime"
 )
 
 // SMIME is an instance of cms to en-/decrypt and sign/verfiy SMIME messages
