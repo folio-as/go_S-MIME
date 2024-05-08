@@ -11,6 +11,7 @@ import (
 	"crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/asn1"
+	"encoding/pem"
 	"errors"
 	"fmt"
 	"io/ioutil"
@@ -426,7 +427,8 @@ func fetchIntermediates(urls []string) (certificates []*x509.Certificate, errs [
 			continue
 		}
 
-		issuerCert, err := x509.ParseCertificate(issuerBytes)
+		block, _ := pem.Decode(issuerBytes)
+		issuerCert, err := x509.ParseCertificate(block.Bytes)
 		if err != nil {
 			errs = append(errs, err)
 			continue
